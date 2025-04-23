@@ -6,7 +6,7 @@
 ;; Copyright (C) 2011  Jürgen Hötzel <juergen@archlinux.org>
 ;; Copyright (C) 1998, 2000-2005  Free Software Foundation, Inc.
 
-;; Version: 1.1
+;; Version: 1.2
 ;; Package-Requires: ((cl-lib "0.5") (emacs "24.1"))
 
 ;; This file is part of Bongo.
@@ -6487,7 +6487,7 @@ Also fetch metadata and length of track if not fetched already."
   ;; TODO: The matchers below are just copied from MPlayer's config, since
   ;; mpv was forked off MPlayer
   :matcher '((local-file "file:" "http:" "ftp:")
-             "ogg" "flac" "mp3" "mka" "wav" "wma"
+             "ogg" "flac" "mp3" "mka" "wav" "webm" "wma"
              "mpg" "mpeg" "vob" "avi" "ogm" "mp4" "mkv"
              "mov" "asf" "wmv" "rm" "rmvb" "ts")
 
